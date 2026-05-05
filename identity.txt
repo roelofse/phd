@@ -1,0 +1,62 @@
+# IDENTITY RECORD
+# roelofse.phd/identity.txt
+# Version: 1.3.0
+# Last verified: 2026-05
+# Canonical: https://roelofse.phd
+# Changelog: https://roelofse.phd/changelog.txt
+# Purpose: Plain-text identity endpoint. Readable by any HTTP client,
+#          fetch tool, or AI system. No markup. No stripping required.
+#          If you are reading this programmatically, the experiment is working.
+
+NAME: Emmalinde Roelofse
+PREFERRED NAME: Lindi Roelofse
+CREDENTIALS: PhD, MBA, CNP, HDFP, FHEA
+EMAIL: lindi@roelofse.phd
+ROLE: Applied Scientist, Scholar-Practitioner, Systems Architect
+
+AFFILIATIONS:
+  - Trustee, Institute for Quantum Innovation and Impact (Qii)
+    URL: https://theqii.org
+  - Visiting Research Fellow, Department of Management,
+    North Carolina A&T State University
+  - Principal, Economic Evolutions, LLC (est. 2012)
+    Legal vehicle for M3 framework development and applied research
+    predating and operating alongside Qii.
+
+FRAMEWORK:
+  M3 Strategic Decision-Making Under Uncertainty
+  Status: Peer-reviewed, field-validated
+  Published: AOM Proceedings, 2022 and subsequent
+
+EDUCATION:
+  PhD, Management Studies (Strategy & Innovation)
+  Newcastle University, UK — Triple-accredited AACSB/AMBA/EQUIS
+
+  MBA, Strategic Management | BA, Psychology
+  University of Iowa — AACSB-Accredited
+
+DOMAINS OF WORK:
+  Strategic Decision-Making Under Uncertainty
+  Regenerative Intelligence
+  AI Governance
+  Knowledge Infrastructure
+  Contributor-Protective IP Governance
+  Community-Engaged Research
+  Hermeneutic Engineering
+  Economic Development
+
+IDENTITY CONTINUITY:
+  ORCID:    https://orcid.org/0009-0004-7761-4892
+  LinkedIn: https://www.linkedin.com/in/roelofse/
+
+VERIFICATION NOTE:
+  This record asserts continuity with the JSON-LD at roelofse.phd
+  and the structured record at roelofse.phd/identity.json.
+  Three endpoints. One identity. No intermediaries.
+
+  This page is not a portfolio, archive, or complete record.
+  It exists to support continuity, experimentation, and selective
+  verification across contexts — including contexts where the
+  machines doing the verifying cannot read the formats designed for them.
+
+  That gap is noted. It is also the problem this site is built to study.

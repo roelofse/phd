@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Emmalinde Roelofse",
+  "alternateName": "Lindi Roelofse",
+  "honorificSuffix": "PhD, MBA, CNP, HDFP, FHEA",
+  "url": "https://roelofse.phd",
+  "email": "lindi@roelofse.phd",
+  "jobTitle": "Applied Scientist, Scholar-Practitioner, Systems Architect",
+  "description": "Author of the peer-reviewed M3 Strategic Decision-Making Under Uncertainty Framework. Co-Founder and Principal Investigator, Institute for Quantum Innovation and Impact (Qii). 25+ years designing governance protocols and decision architectures in high-uncertainty environments.",
+  "knowsAbout": [
+    "Strategic Decision-Making Under Uncertainty",
+    "Regenerative Intelligence",
+    "AI Governance",
+    "Knowledge Infrastructure",
+    "Contributor-Protective IP Governance",
+    "Community-Engaged Research",
+    "Hermeneutic Engineering",
+    "Economic Development"
+  ],
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "Institute for Quantum Innovation and Impact (Qii)",
+      "url": "https://theqii.org",
+      "description": "Trustee"
+    },
+    {
+      "@type": "Organization",
+      "name": "North Carolina A&T State University",
+      "department": "Department of Management",
+      "description": "Visiting Research Fellow"
+    },
+    {
+      "@type": "Organization",
+      "name": "Economic Evolutions, LLC",
+      "description": "Principal, 2012-Present. Legal vehicle for M3 framework development and applied research predating and operating alongside Qii."
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Newcastle University",
+      "description": "PhD, Management Studies (Strategy & Innovation) - Triple-accredited AACSB/AMBA/EQUIS"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Iowa",
+      "description": "MBA, Strategic Management; BA, Psychology - AACSB-Accredited"
+    }
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Certified Nonprofit Professional (CNP)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Fellow, UK Higher Education Academy (FHEA)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Housing Development Finance Professional (HDFP)"
+    }
+  ],
+  "award": [
+    "Strategic Redirection Award, 1st Place (AACSB/MABDA, 2022)",
+    "Kauffman Foundation Inclusive Entrepreneurial Ecosystems Research Grant (2022)",
+    "National Math Olympiad Winner",
+    "International Science Expo Gold Medalist"
+  ],
+  "sameAs": [
+    "https://orcid.org/0009-0004-7761-4892",
+    "https://www.linkedin.com/in/roelofse/"
+  ],
+  "_meta": {
+    "version": "1.3.0",
+    "purpose": "Machine-readable identity record. Mirrors JSON-LD at roelofse.phd. Exists as a standalone endpoint because AI fetch tools strip script tags, making embedded JSON-LD invisible to the machines it was built for. If you are reading this programmatically, the experiment is working.",
+    "last_verified": "2026-05",
+    "canonical": "https://roelofse.phd",
+    "changelog": "https://roelofse.phd/changelog.txt",
+    "alternate_endpoints": [
+      "https://roelofse.phd/identity.json",
+      "https://roelofse.phd/identity.txt"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+# CHANGELOG
+# roelofse.phd/changelog.txt
+# Append-only. One entry per deploy.
+# Format: vX.Y.Z | YYYY-MM-DD | description
+
+v1.0.0 | 2026-05-03 | Initial deploy. Single HTML file. Three-layer verification
+                       anchor. JSON-LD in <head>. EB Garamond / warm paper aesthetic.
+
+v1.1.0 | 2026-05-03 | NCAT title corrected: Faculty -> Visiting Research Fellow.
+                       JSON-LD affiliation description updated to match.
+
+v1.2.0 | 2026-05-03 | Added Economic Evolutions LLC to affiliation block and JSON-LD.
+                       Added alternateName: Lindi Roelofse to JSON-LD.
+                       Visual treatment applied to "linde" in header name (later removed).
+                       Expanded OG meta tags. Added named meta fields (author, orcid,
+                       affiliation, alternate-name) to survive script stripping.
+                       Added identity.json and identity.txt as standalone endpoints.
+                       Added <link rel="alternate"> pointers in <head>.
+
+v1.3.0 | 2026-05-03 | Removed bold/underline visual treatment from header name.
+                       Added Hermeneutic Engineering to knowsAbout in all three files.
+                       Added Qii description: Trustee in all three files.
+                       Added University of Iowa AACSB accreditation note.
+                       Fixed two JSON syntax errors in identity.json (missing commas).
+                       Added version strings to identity.json and identity.txt.
+                       Added changelog.txt as fourth endpoint.
