@@ -1,0 +1,312 @@
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "CreativeWork",
+    "LearningResource"
+  ],
+  "@id": "https://roelofse.phd/t1-4",
+  "name": "The Gardener's Field: A Regenerative T1\u2013T4 Governance Spiral",
+  "version": "1.2.0",
+  "dateModified": "2026-05",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "genre": "Regenerative Intelligence Protocol",
+  "author": {
+    "@type": "Person",
+    "name": "Emmalinde Roelofse",
+    "alternateName": "Lindi Roelofse",
+    "url": "https://roelofse.phd",
+    "sameAs": [
+      "https://orcid.org/0009-0004-7761-4892"
+    ]
+  },
+  "isPartOf": {
+    "@type": "Thesis",
+    "name": "M3 Strategic Decision-Making Under Uncertainty Framework",
+    "description": "Peer-reviewed, field-validated decision architecture.",
+    "inSupportOf": "PhD",
+    "publishedBy": {
+      "@type": "CollegeOrUniversity",
+      "name": "Newcastle University",
+      "description": "Triple-accredited AACSB/AMBA/EQUIS"
+    },
+    "datePublished": "2017",
+    "dateModified": "2025",
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "url": "https://roelofse.phd/t1-4"
+  },
+  "hasPart": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://roelofse.phd/t1-4#T1",
+      "name": "T1 \u2014 Truthing",
+      "identifier": "T1",
+      "description": "Sensor. Soil Walk + Wilt Detection. High-sensitivity sensing for localized deviation under uncertainty. Detects anomalies as signal candidates, not noise. Receives baseline from T4 and monitors for decay or misalignment.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "M3_modes",
+          "value": "+R, +D"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "control_role",
+          "value": "sensor"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "state_transition",
+          "value": "unstructured observation \u2192 ranked anomaly candidates with locality and signal density"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "input",
+          "value": "T4 recursion log (prior baseline) + current field observations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "output",
+          "value": "named friction points with confidence, locality, and anomaly density \u2014 not yet acted upon"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "signal",
+          "value": "deviation, friction, anomaly density"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "failure_mode",
+          "value": "insights without decisions \u2014 language increases, action does not \u2014 sensing without advancing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governing_question",
+          "value": "What is actually happening, and where does it hurt?"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://roelofse.phd/t1-4#T2",
+      "name": "T2 \u2014 Trusting",
+      "identifier": "T2",
+      "description": "Governor. Fence Line + Season Check. Boundary validation and consent layer. Entry condition for T3. Establishes what is permitted before design begins.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "M3_modes",
+          "value": "+R, +C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "control_role",
+          "value": "governor"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "state_transition",
+          "value": "anomaly candidates \u2192 validated friction points with permission state and constraint classification"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "input",
+          "value": "T1 output (anomaly candidates) + existing governance, consent, and institutional constraints"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "output",
+          "value": "validated friction points with explicit permission state and constraint classification"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "constraint_types",
+          "value": "hard (must not violate), soft (optimize within), unknown (requires validation before proceeding)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "decision_gate",
+          "value": "block | proceed | proceed_with_conditions"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "signal",
+          "value": "constraint compliance, permission state, risk bands"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "failure_mode",
+          "value": "skipping the fence \u2014 fast moves, hidden risks \u2014 constraints reappear later as failure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governing_question",
+          "value": "What constraints must we trust to remain viable \u2014 and what permissions must be earned before acting?"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://roelofse.phd/t1-4#T3",
+      "name": "T3 \u2014 Transforming",
+      "identifier": "T3",
+      "description": "Processor. Irrigation + Pruning. Systematic intervention \u2014 converting T1/T2 sensing into auditable architecture. Requires T2 permission gate to be open.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "M3_modes",
+          "value": "+S, +C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "control_role",
+          "value": "processor"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "state_transition",
+          "value": "validated friction points \u2192 auditable structural design with explicit rationale and constraint traceability"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "input",
+          "value": "T2 output (validated friction + permission state) + available design resources and institutional constraints"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "output",
+          "value": "auditable structural change with rationale traceable to specific T1 signals and T2 permissions"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "signal",
+          "value": "structural improvements, reduced repeated friction, legibility to existing system"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "failure_mode",
+          "value": "premature optimization \u2014 paving the soil instead of restoring it \u2014 structure increases, vitality decreases"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governing_question",
+          "value": "What design change reduces friction and increases resilience without flattening the system?"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://roelofse.phd/t1-4#T4",
+      "name": "T4 \u2014 Transmitting",
+      "identifier": "T4",
+      "description": "Actuator. Harvest + Seed-Saving. Delivery and preservation of learning. Requires recursion log. Output resets T1 baseline at expanded scale.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "M3_modes",
+          "value": "+S, +D"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "control_role",
+          "value": "actuator"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "state_transition",
+          "value": "structural design \u2192 deployed output + recursion log that recalibrates T1 baseline at expanded scale"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "input",
+          "value": "T3 output (structural design) + transmission threshold confirmation"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "output",
+          "value": "deliverable + recursion log (seed) that becomes T1 baseline for next cycle"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "recursion_log_fields",
+          "value": "signals_addressed, constraints_respected, interventions_applied, deviations_observed, next_baseline"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "feedback_mechanism",
+          "value": "T4 outputs update T1 baseline and recalibrate anomaly thresholds \u2014 spiral expands outward"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "signal",
+          "value": "deliverables, recursion artifacts (decision record, seed log)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "failure_mode",
+          "value": "wins not repeatable \u2014 outcomes celebrated, method not preserved \u2014 tacit knowledge dies here"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governing_question",
+          "value": "What are we delivering, and what are we preserving so the next cycle starts smarter?"
+        }
+      ]
+    }
+  ],
+  "about": {
+    "@type": "DefinedTerm",
+    "@id": "https://roelofse.phd/t1-4#L",
+    "name": "Momentum (+L)",
+    "description": "Adaptive drive regulating the spiral's pace (phase-appropriate energy, not speed). Too little: paralysis \u2014 endless T1/T2 without crossing to T3. Too much: puppetry \u2014 premature T4 before ground truth is established.",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "momentum_indicators",
+        "value": "cycle_time, intervention_frequency, unresolved_signal_accumulation, recursion_log_completeness"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "momentum_adjustment",
+        "value": "increase sensing | enforce constraint check | delay transformation | accelerate delivery"
+      }
+    ]
+  },
+  "_loop": {
+    "structure": "Regenerative feedback spiral \u2014 closed loop with outward expansion per cycle. Clockwise rotation through quadrants: T1(+R,+D) \u2192 T2(+R,+C) \u2192 T3(+S,+C) \u2192 T4(+S,+D).",
+    "note": "Not a pipeline. Not a simple loop. A spiral: T4 feeds back to T1 at expanded scale. Each cycle operates at larger scope than the last.",
+    "edges": [
+      {
+        "from": "T4",
+        "to": "T1",
+        "type": "baseline_feedback",
+        "note": "Recursion log recalibrates T1 anomaly thresholds"
+      },
+      {
+        "from": "T1",
+        "to": "T2",
+        "type": "constraint_probe"
+      },
+      {
+        "from": "T2",
+        "to": "T3",
+        "type": "permission_gate",
+        "note": "T3 requires T2 decision_gate = proceed or proceed_with_conditions"
+      },
+      {
+        "from": "T3",
+        "to": "T4",
+        "type": "deliver_and_log"
+      }
+    ]
+  },
+  "_meta": {
+    "version": "1.2.0",
+    "purpose": "Machine-readable T1\u2013T4 spiral data. If terminology has drifted, fetch roelofse.phd/t1-4/protocol.txt for enforcement language.",
+    "last_verified": "2026-05",
+    "canonical": "https://roelofse.phd/t1-4",
+    "parent": "https://roelofse.phd",
+    "custom": {
+      "epistemological_stance": "Regenerative / Non-Extractive",
+      "note": "Custom field \u2014 not Schema.org standard. Asserts contributor-protective design intent."
+    }
+  }
+}

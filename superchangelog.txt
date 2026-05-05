@@ -1,0 +1,59 @@
+# CHANGELOG
+# roelofse.phd/changelog.txt
+# Append-only. One entry per deploy.
+# Format: vX.Y.Z | YYYY-MM-DD | description
+
+v1.0.0 | 2026-05-03 | Initial deploy. Single HTML file. Three-layer verification
+                       anchor. JSON-LD in <head>. EB Garamond / warm paper aesthetic.
+
+v1.1.0 | 2026-05-03 | NCAT title corrected: Faculty -> Visiting Research Fellow.
+                       JSON-LD affiliation description updated to match.
+
+v1.2.0 | 2026-05-03 | Added Economic Evolutions LLC to affiliation block and JSON-LD.
+                       Added alternateName: Lindi Roelofse to JSON-LD.
+                       Visual treatment applied to "linde" in header name (later removed).
+                       Expanded OG meta tags. Added named meta fields (author, orcid,
+                       affiliation, alternate-name) to survive script stripping.
+                       Added identity.json and identity.txt as standalone endpoints.
+                       Added <link rel="alternate"> pointers in <head>.
+
+v1.3.0 | 2026-05-03 | Removed bold/underline visual treatment from header name.
+                       Added Hermeneutic Engineering to knowsAbout in all three files.
+                       Added Qii description: Trustee in all three files.
+                       Added University of Iowa AACSB accreditation note.
+                       Fixed two JSON syntax errors in identity.json (missing commas).
+                       Added version strings to identity.json and identity.txt.
+                       Added changelog.txt as fourth endpoint.
+
+v1.4.0 | 2026-05-04 | Pending deploy: footer version number visible on index.html.
+                       Qii role unified: PI & Trustee across all layers.
+                       identity.json Qii description updated.
+
+v2.0.0 | 2026-05-04 | New endpoint: roelofse.phd/t1-4
+                       Three-layer architecture:
+                       - /t1-4/index.html: The Gardener's Field (human page,
+                         Gemini/Claude/Copilot/ChatGPT synthesis, Figure 1 embedded)
+                       - /t1-4/index.json: Structured Schema.org data, machine layer
+                       - /t1-4/protocol.txt: Plain-text enforcement language,
+                         any HTTP client, mid-session re-grounding
+                       Terminology corrected: Transforming/Transmitting (present
+                       continuous) confirmed as canonical — not nouns, not gerunds
+                       of completion. Tense is strategy.
+                       Spiral outward in Figure 1 noted as momentum (+L) — each
+                       cycle at larger scale than last. Added to human page caption.
+
+v1.4.0 | 2026-05-05 | Footer version number visible on index.html (landing page).
+                       Qii role unified: "Principal Investigator & Trustee" across
+                       all layers. index.html JSON-LD Qii description updated.
+
+v2.1.0 | 2026-05-05 | /t1-4 page updated:
+                       - Color palette: #e7f2f8 background, #002f6d title.
+                       - Figure 1 switched from base64 embed to external file
+                         (figure1.png) — transparency renders correctly.
+                       - "Tethered to M3" corrected to "Mapped to M3".
+                       - Rotation corrected from counterclockwise to clockwise
+                         (matches Figure 1).
+                       - CC-BY-NC-SA 4.0 license block added (visible page +
+                         JSON-LD).
+                       - /t1-4/index.json updated with license field.
+                       - v1.2.0 footer version string.
