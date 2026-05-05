@@ -12,6 +12,8 @@ This is not a portfolio, marketing site, or place for the centralization of sens
 ## Repository Structure
 ```text
 roelofse-phd/
+├── README.md            
+├── LICENCE.md           
 ├── index.html           # Sovereign Root (L1 Human-legible assertion)
 ├── identity.json        # L3 Machine-verifiable Schema (DefinedTermSet)
 ├── identity.txt         # Plain-text Identity Endpoint (Non-strippable)
@@ -19,6 +21,7 @@ roelofse-phd/
 └── t1-4/                # The Regenerative Helix Protocol
     ├── index.html       # The Gardener’s Field (Human-legible logic)
     ├── index.json       # T1-4 Structured Loop Metadata (ScholarlyArticle)
+    ├── figure1.png      # The Regenerative T1–T4 Governance Loop
     └── protocol.txt     # Plain-text Enforcement Language (Machine re-grounding)
 ```
 
