@@ -1,6 +1,8 @@
 # roelofse.phd — Verification Anchor + Regenerative Governance Substrate
 
-This repository serves as the version-controlled substrate for the identity anchor and governance protocols published at https://roelofse.phd. It exists to ensure that scholarly identity and decision-making architectures remain auditable, legible, and reversible.
+This repository is an archival substrate; the authoritative public interface is https://roelofse.phd.
+
+As a version-controlled substrate, it is a live experiment working towards a number of objectives. Centrally among those objectives is an identity anchor and governance protocols. Specifically, the scholarly identity is important to ensure that the strategic decision-making architectures remain auditable, legible, and reversible.
 
 ## Purpose & Scope
 - **Sovereign Root:** A stable, human-legible identity anchor (L1) and machine-verifiable continuity (L2/L3).
